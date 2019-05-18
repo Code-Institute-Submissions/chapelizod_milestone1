@@ -31,7 +31,7 @@ and white with color being offered by photographs and viseos.
 
 Wireframes were developed using the Pencil wireframing tool
 
-![Wireframe 1](/assets/images/wftest1.jpg)
+![Wireframe 1](/assets/images/wireframe1.png)
 
 Plan to use all methods from latest version of Bootstrap
 
@@ -78,6 +78,14 @@ Total commits: 3
 
 ---
 
+###### Languages used
+
+HTML5
+CSS
+
+
+---
+
 ###### Software used for development
 
 Pencil (link)
@@ -86,5 +94,7 @@ Paint.net (link)
 ###### Frameworks
 
 Bootstrap (link)
+https://fonts.google.com/
+https://fontawesome.com/
 
 ---
