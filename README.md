@@ -45,6 +45,8 @@ index.html:
 
 aria-disabled="true"
 
+<div class="col-12 col-sm-6">
+
 ###### Navbar
 
 In Bootstrap 4, navbars have Flexbox functionality by default. The navbar on

@@ -17,8 +17,30 @@ p {
 
 /*----------------------------------------- Footer */
 
-.footer{
+.card {
+    margin-top: 15px;
     min-height: 200px;
 }
 
+.social-media-links {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
 
+.card-header {
+    text-align: center;
+    min-height: 50px;
+}
+
+.card-body {
+}
+
+.card-title {
+    text-align: center;
+}
+
+.fa-bus {
+    font-size: 25px;
+    padding-left: 25px;
+}
