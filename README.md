@@ -65,6 +65,8 @@ Testied on Ipad mini (resolution??) Samsung phone, Iphone
 
 ###### Commit log
 
+Total commits: 3
+
 1. Initial commit
 2. Basic directory structure setup
 

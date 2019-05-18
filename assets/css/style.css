@@ -1,5 +1,24 @@
-/*----------------------------------------- Test */
+/*----------------------------------------- center content */
 
-.hello {
-    background-color: pink;
+.jumbotron {
+    background-image: url("/assets/images/welcome.jpg");
+    /* ensure image scales on smaller screens */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
 }
+
+.jumbotron h1,
+p {
+    color: #ffffff;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/*----------------------------------------- Footer */
+
+.footer{
+    min-height: 200px;
+}
+
+
