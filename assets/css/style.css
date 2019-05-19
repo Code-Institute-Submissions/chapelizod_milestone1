@@ -1,10 +1,5 @@
 /*----------------------------------------- Fonts */
 
-/* Import fonts. Tangerine gives a nice historic look for headings, Pathway 
-Gothic One gives an nice historic look but is more readable than Tangerine. 
-Useful for UI elements and messages to the user. Various font weights are
-preset here in case they are needed */
-
 @import url('https://fonts.googleapis.com/css?family=Tangerine:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One:100,200,300,400,500,600,700');
 
@@ -12,6 +7,10 @@ preset here in case they are needed */
 
 .bg-color-footer {
     background-color: #d8dde2;
+}
+
+.color-social-media-links {
+    background-color: #a7b9d6;
 }
 
 /*----------------------------------------- Header / Navbar content */
@@ -25,7 +24,7 @@ preset here in case they are needed */
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 400px;
-    
+
     margin: 0;
 
     /*transition: all .5s ease-in-out;*/
@@ -35,7 +34,6 @@ preset here in case they are needed */
 p {
     color: #ffffff;
     padding-top: 0;
-    margin-top: 0;
     font-family: "Tangerine", sans-serif;
     font-weight: 500;
     font-size: 100px;
@@ -50,7 +48,12 @@ p {
 .social-media-links {
     text-align: center;
     font-size: 30px;
-    color: red;
+    color: #428aff;
+}
+
+.social-media-links a{
+    /* remove underline from link */
+    text-decoration: none;
 }
 
 .fa-bus {

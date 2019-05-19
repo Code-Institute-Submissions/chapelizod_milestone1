@@ -124,7 +124,14 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-Pencil
+
+
+
+Pencil (link)
+Paint.net (link)
+
+Fonts: Tangerine gives a nice historic look for headings
+Pathway Gothic One gives an nice historic look but is more readable than Tangerine.
 
 ## Testing
 
@@ -159,6 +166,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+
+Video used with permission of Chapelizod Tidy Towns.
+
+Podcasts used with permission of Chapelizod historical society
+
+Photographs by Andrew Dempsey.
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
