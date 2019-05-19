@@ -29,7 +29,7 @@
 /* main home page uses jumbotron with text overlay*/
 
 .jumbotron {
-    background-image: url("../assets/images/welcome.jpg");
+    background-image: url("/assets/images/welcome.jpg");
 
     /* ensure image scales on smaller screens */
     background-size: cover;
