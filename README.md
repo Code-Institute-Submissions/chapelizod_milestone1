@@ -1,12 +1,12 @@
 # Chapelizod Visitor Information
 
 Chapelizod is a small village close to Dublin city center in Ireland. With many
-historical featues, it is a relativly large tourist attraction compared to 
+historical features, it is a relatively large tourist attraction compared to 
 other similar sized towns in Ireland.
 
 "Chapelizod Visitor Information" is a website that aims to provide information
 to potential visitors to the town, so that they may plan their visit. Travel 
-information such as bus routes is prvided. The site features photographs of 
+information such as bus routes is provided. The site features photographs of 
 historical buildings and places of interest that a tourist may decide they want 
 to see. The website provides podcasts that give historical information that 
 should make visitors trips more interesting. Social media links to the town 
@@ -24,7 +24,7 @@ to enjoy their visit more and be reminded of the town's attractions.
 **Goals of the website**
 
 The main goal of the website is to provide information to anyone interested in 
-the town. It should be easy to use, compatible with a wide vareity of devices 
+the town. It should be easy to use, compatible with a wide variety of devices 
 and browsers. Information should be easy to locate & fast to load. The main 
 visitors to the site are expected to be tourists.
 
@@ -35,7 +35,7 @@ increased social media presence will bring more tourism to the town.
 
 *User story 1*
 
-As a potential tourist to the town, I visitied the site on my computer. I was 
+As a potential tourist to the town, I visited the site on my computer. I was 
 able to see all of the attractions of the town and plan my visit.
 
 *User story 2*
@@ -113,7 +113,7 @@ attraction.
 
 ![Media page on desktop](/assets/wireframes/desktopmedia.png)
 
-The "media" page provides videos that hightlight the culture of the town as 
+The "media" page provides videos that highlight the culture of the town as 
 well as its scenic beauty. A podcast is also provided here that is intended to 
 teach the visitor some of the historical features of the town.
 
@@ -136,14 +136,14 @@ orientation.
 
 Here we see the mobile version of the about page. It contains the same 
 information as the desktop version only this time, the grid has reorganized 
-itself to render better on a small screen. Bootstrap provides exelent 
-functionality to acheive this.
+itself to render better on a small screen. Bootstrap provides excellent
+functionality to achieve this.
 
 *Images page*
 
 ![Images page on mobile](/assets/wireframes/mobileimages.png)
 
-The images page is very simial to the desktop version only on smaller devices, 
+The images page is very similar to the desktop version only on smaller devices, 
 the images shrink to save the user from having to scroll around to see all of 
 the image.
 
@@ -151,98 +151,172 @@ the image.
 
 ![Media page on mobile](/assets/wireframes/mobilemedia.png)
 
-The media page is simailar to the desktop version. Again we use Bootstrap to 
-reorietate that grid to provide a better user experiece for smartphones.
+The media page is similar to the desktop version. Again we use Bootstrap to 
+re-orientate that grid to provide a better user experience for smartphones.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+The website consists of four pages, index.html, about.html, images,html and 
+media.html. Each page uses the Bootstrap framework extensively. The Bootstrap 
+documentation was consulted regularly to ensure each page was responsive.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Bootstrap.js enables the use of a carousel on the images page as well as 
+helping to implement a collapsible menu. The navbar used at the top of each 
+page reacts to mouse hovers and provides feedback to the user.
 
 ### Features Left to Implement
 
 It would be preferable to have the option of changing the language of the site 
-to accomodate a wide range of languages.
+to accommodate tourists that do not speak English. This would help increase the 
+potential number of tourists that might visit.
 
 A map feature showing the location of places of interest would be another nice 
 and useful feature. Perhaps this feature could tie in with Google maps to 
 provide the tourist with spoken directions to the area they want to visit.
 
-Move the captions from the carousel images to an area undereath the images as 
-the captions are not currently displaying properly on mobile devices.
+It will be necessary to move the captions from the carousel images to an area 
+underneath the images as they are not currently displaying properly on mobile 
+devices.
+
+The jumbotron used on the home page could be updated to show a slide show of 
+images from the town as opposed to the static image.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+The following technologies and frameworks were used in the development of this 
+website:
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+*Icons*
 
+Fontawsome (https://fontawesome.com/)
 
+*Fonts*
 
-Pencil (link)
-Paint.net (link)
+Google fonts (https://fonts.google.com/)
 
-Fonts: Tangerine gives a nice historic look for headings
-Pathway Gothic One gives an nice historic look but is more readable than Tangerine.
+*Website layout and functionality*
+
+Bootstrap (https://getbootstrap.com/)
+
+*IDE*
+
+Cloud 9 (https://aws.amazon.com/cloud9/)
+
+*Wireframing*
+
+Pencil (https://pencil.evolus.vn/)
+
+*Photograph editing*
+
+Paint.net (https://www.getpaint.net/)
+
+*Video hosting*
+
+Youtube (https://www.youtube.com/)
 
 ## Testing
 
-![test1](/testing/testing1.jpg)
+Testing was performed on a wide variety of devices and browsers to check for
+compatibility and responsiveness.
 
-![test2](/testing/testing2.jpg)
+![IPad mini Safari Home](/testing/testing1.jpg)
 
-![test3](/testing/testing3.jpg)
+Test 1 The "home" page rendered on an IPad mini in horizontal orientation, using 
+the Safari browser.
 
-![test4](/testing/testing4.jpg)
+![IPad mini Safari About](/testing/testing2.jpg)
 
-![test5](/testing/testing5.jpg)
+Test 2 The "about" page rendered on an IPad mini in horizontal orientation, using 
+the Safari browser.
 
-![test6](/testing/testing6.jpg)
+![IPad mini Safari Media](/testing/testing3.jpg)
 
-![test7](/testing/testing7.jpg)
+Test 3 The "media" page rendered on an IPad mini in horizontal orientation, using 
+the Safari browser.
 
-![test8](/testing/testing8.jpg)
+![Iphone 6s Home](/testing/testing4.jpg)
+
+Test 4 The "home" page as seen on an IPhone 6s.
+
+![Iphone 6s Pictures](/testing/testing5.jpg)
+
+Test 5 The "pictures" page as seen on an IPhone 6s.
+
+![Desktop Chrome Home](/testing/testing6.jpg)
+
+Test 6 The "home" page as seen on a desktop computer, running Windows 7, 
+using Chrome browser
+
+![Desktop Internet Explorer Pictures](/testing/testing7.jpg)
+
+Test 7 The "pictures" page as seen on a desktop computer, running Windows 7, 
+using Internet Explorer browser
+
+![Desktop Firefox Media](/testing/testing8.jpg)
+
+Test 8 The "media" page as seen on a desktop computer, running Windows 7, 
+using Firefox browser
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+As the project was developed, regular commits were made to Github. Commits were 
+made as new pages were added to the website. Once all pages were added, commits 
+consisted of styling improvements and error corrections.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+Development took place on the Cloud 9 platform. One serious issue encountered 
+when using this platform presented itself when final deployment was attempted. 
+Cloud 9 rendered the webpage perfectly with absolute file paths, while the 
+final hosting platform (Github pages) did not render the site properly with 
+absolute file paths.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+In total, the project resulted in 20 commits to Github.
 
+**Commit summary**
+
+Commit number 20: updates to Readme
+
+Commit number 19: added UX section to readme
+
+Commit number 18: Changed home page image
+
+Commit number 17: Updates to Readme, adjusted some font sizes on footer
+
+Commit number 16: Fixed errors with file paths
+
+Commit number 15: minor changes to directory structure
+
+Commit number 14: Minor styling changes made to media page
+
+Commit number 13: updated media page to be more responsive, made adjustments to home page
+
+Commit number 12: added media page, updated directory structure
+
+Commit number 11: added about page
+
+Commit number 10: added pictures page
+
+Commit number 9: Improved layout, improved look of icons
+
+Commit number 8: Updated readme, adjustments to index page
+
+Commit number 7: Removed cards from footer, added row+cols for better look
+
+Commit number 6: Added photos & fonts
+
+Commit number 5: Styled footer cards
+
+Commit number 4: Added jumbotron and cards to index.html
+
+Commit number 3: Worked on Readme.md, styling on index.html
+
+Commit number 2: Basic directory structure setup
+
+Commit number 1: Initial commit
 
 ## Credits
 
-Video used with permission of Chapelizod Tidy Towns.
+Videos used with the permission of Chap.ie
 
-Chapelizod walkthrough thanks to HERITAGE media
-
-Podcasts used with permission of Chapelizod historical society
-
-Beautyful Chapelizod by allthatsbeautiful1
+Podcast used with permission of Chapelizod historical society.
 
 Photographs by Andrew Dempsey.
-
-chap.ie
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
-### Media
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
