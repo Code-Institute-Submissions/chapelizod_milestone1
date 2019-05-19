@@ -30,8 +30,7 @@
     /*transition: all .5s ease-in-out;*/
 }
 
-.jumbotron h1,
-p {
+.jumbotron h1, p {
     color: #ffffff;
     padding-top: 0;
     font-family: "Tangerine", sans-serif;
@@ -43,6 +42,10 @@ p {
     font-size: 50px;
 }
 
+/*----------------------------------------- Images page content */
+
+
+
 /*----------------------------------------- Footer content */
 
 .social-media-links {
@@ -51,7 +54,7 @@ p {
     color: #428aff;
 }
 
-.social-media-links a{
+.social-media-links a {
     /* remove underline from link */
     text-decoration: none;
 }
