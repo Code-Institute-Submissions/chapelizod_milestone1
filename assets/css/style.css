@@ -1,9 +1,12 @@
 /*----------------------------------------- Fonts */
 
+/* preset font weights */
 @import url('https://fonts.googleapis.com/css?family=Tangerine:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One:100,200,300,400,500,600,700');
 
 /*----------------------------------------- Colors */
+
+/* define some solors that are used more than once*/
 
 .bg-color-footer {
     background-color: #d8dde2;
@@ -15,7 +18,15 @@
 
 /*----------------------------------------- Header / Navbar content */
 
+/* add space around the icon */
+.navbar a i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /*----------------------------------------- Center page content */
+
+/* main home page uses jumbotron with text overlay*/
 
 .jumbotron {
     background-image: url("/assets/images/welcome.jpg");
@@ -30,7 +41,11 @@
     /*transition: all .5s ease-in-out;*/
 }
 
-.jumbotron h1, p {
+/*set text properties for jumbotron, colors used
+all text to be readable over the image */
+
+.jumbotron h1,
+p {
     color: #ffffff;
     padding-top: 0;
     font-family: "Tangerine", sans-serif;
@@ -44,7 +59,8 @@
 
 /*----------------------------------------- Images page content */
 
-.carousel-caption p{
+/* sans serif included here to allow for  contingency if Google fonts are unavailable*/
+.carousel-caption p {
     font-family: "Pathway Gothic One", sans-serif;
     font-weight: 100;
     font-size: 20px;
@@ -52,7 +68,7 @@
 
 /*----------------------------------------- About page content */
 
-.about-text p{
+.about-text p {
     font-family: "Pathway Gothic One", sans-serif;
     font-weight: 100;
     font-size: 20px;
@@ -65,19 +81,20 @@
 
 /*----------------------------------------- Media page content */
 
-.media-row p{
+.media-row p {
     font-family: "Pathway Gothic One", sans-serif;
     font-weight: 100;
     font-size: 20px;
     color: #000000;
 }
 
-.audio-player{
+.audio-player {
     /* move audio play just off from the nav bar */
     padding-top: 20px;
 }
 
-.video-player{
+.video-player {
+    /* make sure videos are not to close to each other vertically*/
     margin-top: 10px;
 }
 
@@ -102,4 +119,7 @@
 .footer-panel {
     min-height: 150px;
     margin-top: 15px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Pathway Gothic One", sans-serif;
 }
