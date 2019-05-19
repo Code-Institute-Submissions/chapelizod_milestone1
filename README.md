@@ -118,6 +118,9 @@ A map feature showing the location of places of interest would be another nice
 and useful feature. Perhaps this feature could tie in with Google maps to 
 provide the tourist with spoken directions to the area they want to visit.
 
+Move the captions from the carousel images to an area undereath the images as 
+the captions are not currently displaying properly on mobile devices.
+
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.

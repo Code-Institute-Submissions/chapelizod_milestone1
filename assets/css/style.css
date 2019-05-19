@@ -44,7 +44,24 @@
 
 /*----------------------------------------- Images page content */
 
+.carousel-caption p{
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
 
+/*----------------------------------------- About page content */
+
+.about-text p{
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #000000;
+}
+
+.about-row {
+    margin-top: 10px;
+}
 
 /*----------------------------------------- Footer content */
 
