@@ -172,9 +172,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 Video used with permission of Chapelizod Tidy Towns.
 
+Chapelizod walkthrough thanks to HERITAGE media
+
 Podcasts used with permission of Chapelizod historical society
 
+Beautyful Chapelizod by allthatsbeautiful1
+
 Photographs by Andrew Dempsey.
+
+chap.ie
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)

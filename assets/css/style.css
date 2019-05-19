@@ -63,6 +63,24 @@
     margin-top: 10px;
 }
 
+/*----------------------------------------- Media page content */
+
+.media-row p{
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #000000;
+}
+
+.audio-player{
+    /* move audio play just off from the nav bar */
+    padding-top: 20px;
+}
+
+.video-player{
+    margin-top: 10px;
+}
+
 /*----------------------------------------- Footer content */
 
 .social-media-links {
